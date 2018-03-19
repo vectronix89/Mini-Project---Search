@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		542F3E063F381F66D454FEC4 /* Pods_Mini_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96971B3AC892E1ADAA5F620F /* Pods_Mini_Project.framework */; };
 		D6F44D42205F206100F62BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F44D41205F206100F62BD2 /* AppDelegate.swift */; };
-		D6F44D44205F206100F62BD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F44D43205F206100F62BD2 /* ViewController.swift */; };
+		D6F44D44205F206100F62BD2 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F44D43205F206100F62BD2 /* Main.swift */; };
 		D6F44D47205F206100F62BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F44D45205F206100F62BD2 /* Main.storyboard */; };
 		D6F44D49205F206100F62BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F44D48205F206100F62BD2 /* Assets.xcassets */; };
 		D6F44D4C205F206100F62BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F44D4A205F206100F62BD2 /* LaunchScreen.storyboard */; };
+		D6F44D55205F2DE200F62BD2 /* SearchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F44D54205F2DE200F62BD2 /* SearchList.swift */; };
+		D6F44D58205F2E9200F62BD2 /* CustomCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F44D57205F2E9200F62BD2 /* CustomCollectionFlowLayout.swift */; };
+		D6F44D5B205F2F5C00F62BD2 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F44D5A205F2F5C00F62BD2 /* ProductCollectionViewCell.swift */; };
+		D6F44D5E205F30F600F62BD2 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F44D5D205F30F600F62BD2 /* ApiService.swift */; };
+		D6F44D60205F321500F62BD2 /* AppDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F44D5F205F321500F62BD2 /* AppDefines.swift */; };
+		D6F44D62205F326A00F62BD2 /* FilterParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F44D61205F326A00F62BD2 /* FilterParameter.swift */; };
+		D6F44D64205F371C00F62BD2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F44D63205F371C00F62BD2 /* BaseViewController.swift */; };
+		D6F44D66205F3C3600F62BD2 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F44D65205F3C3600F62BD2 /* LoaderView.swift */; };
+		D6F44D68205F515F00F62BD2 /* SearchFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F44D67205F515F00F62BD2 /* SearchFilter.swift */; };
+		D6F44D6A205F64E600F62BD2 /* ShopTypeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F44D69205F64E600F62BD2 /* ShopTypeFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96971B3AC892E1ADAA5F620F /* Pods_Mini_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mini_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42B93209900F06FFF5DB44C /* Pods-Mini Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mini Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mini Project/Pods-Mini Project.debug.xcconfig"; sourceTree = "<group>"; };
 		D6F44D3E205F206100F62BD2 /* Mini Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F44D41205F206100F62BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6F44D43205F206100F62BD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6F44D43205F206100F62BD2 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		D6F44D46205F206100F62BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6F44D48205F206100F62BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6F44D4B205F206100F62BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6F44D4D205F206100F62BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F44D54205F2DE200F62BD2 /* SearchList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchList.swift; sourceTree = "<group>"; };
+		D6F44D57205F2E9200F62BD2 /* CustomCollectionFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionFlowLayout.swift; sourceTree = "<group>"; };
+		D6F44D5A205F2F5C00F62BD2 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		D6F44D5D205F30F600F62BD2 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		D6F44D5F205F321500F62BD2 /* AppDefines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefines.swift; sourceTree = "<group>"; };
+		D6F44D61205F326A00F62BD2 /* FilterParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterParameter.swift; sourceTree = "<group>"; };
+		D6F44D63205F371C00F62BD2 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D6F44D65205F3C3600F62BD2 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		D6F44D67205F515F00F62BD2 /* SearchFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilter.swift; sourceTree = "<group>"; };
+		D6F44D69205F64E600F62BD2 /* ShopTypeFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTypeFilter.swift; sourceTree = "<group>"; };
+		EE8541CC9FB326C4FFEFB8F8 /* Pods-Mini Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mini Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mini Project/Pods-Mini Project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542F3E063F381F66D454FEC4 /* Pods_Mini_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C5EDBC5DA42C98FF666FBFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A42B93209900F06FFF5DB44C /* Pods-Mini Project.debug.xcconfig */,
+				EE8541CC9FB326C4FFEFB8F8 /* Pods-Mini Project.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D6F44D35205F206100F62BD2 = {
 			isa = PBXGroup;
 			children = (
 				D6F44D40205F206100F62BD2 /* Mini Project */,
 				D6F44D3F205F206100F62BD2 /* Products */,
+				1C5EDBC5DA42C98FF666FBFA /* Pods */,
+				E6DBCB57D1C101F0C1154BC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +91,47 @@
 			isa = PBXGroup;
 			children = (
 				D6F44D41205F206100F62BD2 /* AppDelegate.swift */,
-				D6F44D43205F206100F62BD2 /* ViewController.swift */,
+				D6F44D5F205F321500F62BD2 /* AppDefines.swift */,
+				D6F44D43205F206100F62BD2 /* Main.swift */,
+				D6F44D54205F2DE200F62BD2 /* SearchList.swift */,
+				D6F44D67205F515F00F62BD2 /* SearchFilter.swift */,
+				D6F44D69205F64E600F62BD2 /* ShopTypeFilter.swift */,
+				D6F44D5C205F308700F62BD2 /* Services */,
+				D6F44D56205F2E5A00F62BD2 /* Module */,
 				D6F44D45205F206100F62BD2 /* Main.storyboard */,
 				D6F44D48205F206100F62BD2 /* Assets.xcassets */,
 				D6F44D4A205F206100F62BD2 /* LaunchScreen.storyboard */,
 				D6F44D4D205F206100F62BD2 /* Info.plist */,
 			);
 			path = "Mini Project";
+			sourceTree = "<group>";
+		};
+		D6F44D56205F2E5A00F62BD2 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				D6F44D57205F2E9200F62BD2 /* CustomCollectionFlowLayout.swift */,
+				D6F44D5A205F2F5C00F62BD2 /* ProductCollectionViewCell.swift */,
+				D6F44D63205F371C00F62BD2 /* BaseViewController.swift */,
+				D6F44D65205F3C3600F62BD2 /* LoaderView.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		D6F44D5C205F308700F62BD2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D6F44D5D205F30F600F62BD2 /* ApiService.swift */,
+				D6F44D61205F326A00F62BD2 /* FilterParameter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E6DBCB57D1C101F0C1154BC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96971B3AC892E1ADAA5F620F /* Pods_Mini_Project.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6F44D50205F206100F62BD2 /* Build configuration list for PBXNativeTarget "Mini Project" */;
 			buildPhases = (
+				BD4521415E18CE3E33F806F8 /* [CP] Check Pods Manifest.lock */,
 				D6F44D3A205F206100F62BD2 /* Sources */,
 				D6F44D3B205F206100F62BD2 /* Frameworks */,
 				D6F44D3C205F206100F62BD2 /* Resources */,
+				A2E5C01DAF2AD715DA5D81A9 /* [CP] Embed Pods Frameworks */,
+				B5E1750B4F61BD9270F0ACB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +169,7 @@
 				TargetAttributes = {
 					D6F44D3D205F206100F62BD2 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -131,13 +204,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A2E5C01DAF2AD715DA5D81A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mini Project/Pods-Mini Project-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/LGButton/LGButton.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RangeSeekSlider/RangeSeekSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RangeSeekSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mini Project/Pods-Mini Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5E1750B4F61BD9270F0ACB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mini Project/Pods-Mini Project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD4521415E18CE3E33F806F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mini Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6F44D3A205F206100F62BD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6F44D44205F206100F62BD2 /* ViewController.swift in Sources */,
+				D6F44D58205F2E9200F62BD2 /* CustomCollectionFlowLayout.swift in Sources */,
+				D6F44D6A205F64E600F62BD2 /* ShopTypeFilter.swift in Sources */,
+				D6F44D44205F206100F62BD2 /* Main.swift in Sources */,
+				D6F44D68205F515F00F62BD2 /* SearchFilter.swift in Sources */,
+				D6F44D60205F321500F62BD2 /* AppDefines.swift in Sources */,
+				D6F44D5E205F30F600F62BD2 /* ApiService.swift in Sources */,
+				D6F44D5B205F2F5C00F62BD2 /* ProductCollectionViewCell.swift in Sources */,
+				D6F44D64205F371C00F62BD2 /* BaseViewController.swift in Sources */,
 				D6F44D42205F206100F62BD2 /* AppDelegate.swift in Sources */,
+				D6F44D66205F3C3600F62BD2 /* LoaderView.swift in Sources */,
+				D6F44D55205F2DE200F62BD2 /* SearchList.swift in Sources */,
+				D6F44D62205F326A00F62BD2 /* FilterParameter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +433,16 @@
 		};
 		D6F44D51205F206100F62BD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42B93209900F06FFF5DB44C /* Pods-Mini Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Mini Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.search.Mini-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +450,16 @@
 		};
 		D6F44D52205F206100F62BD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE8541CC9FB326C4FFEFB8F8 /* Pods-Mini Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Mini Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.search.Mini-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

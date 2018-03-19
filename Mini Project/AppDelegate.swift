@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        IQKeyboardManager.sharedManager().enable = true
+        IQKeyboardManager.sharedManager().enableAutoToolbar = false
+        IQKeyboardManager.sharedManager().shouldResignOnTouchOutside = true
+        
         return true
     }
 
@@ -41,6 +47,56 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
+    func showToastOnTopViewcontrollers(_ message:String){
+        if let topController = UIApplication.topViewController() {
+            if topController.isKind(of: BaseViewController.self) {
+                (topController as! BaseViewController).showToast(message)
+            }
+            
+        }
+    }
 
+}
+
+extension UIApplication {
+    class func topViewController(controller: UIViewController? = UIApplication.shared.keyWindow?.rootViewController) -> UIViewController? {
+        if let navigationController = controller as? UINavigationController {
+            return topViewController(controller: navigationController.visibleViewController)
+        }
+        if let tabController = controller as? UITabBarController {
+            if let selected = tabController.selectedViewController {
+                return topViewController(controller: selected)
+            }
+        }
+        if let presented = controller?.presentedViewController {
+            return topViewController(controller: presented)
+        }
+        return controller
+    }
+}
+
+extension NumberFormatter {
+    convenience init(style: Style) {
+        self.init()
+        numberStyle = style
+    }
+}
+
+extension Formatter {
+    static let currency = NumberFormatter(style: .currency)
+    static let currencyIDR: NumberFormatter = {
+        let formatter = NumberFormatter(style: .currency)
+        formatter.locale = Locale(identifier: "id_ID")
+        return formatter
+    }()
+}
+extension FloatingPoint {
+    var currency: String {
+        return Formatter.currency.string(for: self) ?? ""
+    }
+    var currencyIDR: String {
+        return Formatter.currencyIDR.string(for: self) ?? ""
+    }
 }
 
