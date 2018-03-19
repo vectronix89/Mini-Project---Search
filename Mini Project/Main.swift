@@ -46,6 +46,7 @@ class Main: BaseViewController, UITextFieldDelegate {
         if let q:String = searchField.text, q.characters.count > 0 {
             searchField.errorMessage = nil
             filter.q = q
+            filter.page = 0
             self.performSegue(withIdentifier: "show_serach_list_segue", sender: self)
         }else{
             searchField.errorMessage = "Masukkan Kata Kunci!"
